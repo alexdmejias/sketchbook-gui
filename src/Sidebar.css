@@ -1,0 +1,15 @@
+.sidebar {
+    position: absolute;
+    background: crimson;
+    width: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-250px);
+    transition: transform 300ms;
+    z-index: 99999999;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}

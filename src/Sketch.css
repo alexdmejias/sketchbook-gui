@@ -1,0 +1,13 @@
+.sketch {
+    background: grey;
+    position: absolute;
+    left: 50px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sketch iframe {
+    width: 100%;
+    height: 100%;
+}
